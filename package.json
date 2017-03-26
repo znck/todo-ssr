@@ -1,0 +1,28 @@
+{
+  "name": "todo-ssr",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:client && npm run build:server",
+    "build:client": "rollup -c build/rollup.client.config.js",
+    "build:server": "rollup -c build/rollup.server.config.js",
+    "start": "node server.js",
+    "deploy": "now -n todo-ssr ."
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "lru-cache": "^4.0.2",
+    "serve-favicon": "^2.4.2",
+    "todomvc-app-css": "^2.1.0",
+    "vue": "^2.2.5",
+    "vue-router": "^2.3.0",
+    "vue-server-renderer": "^2.2.5"
+  },
+  "devDependencies": {
+    "rollup": "^0.41.6",
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-replace": "^1.1.1",
+    "rollup-plugin-vue": "^2.3.1"
+  }
+}
