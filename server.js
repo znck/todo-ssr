@@ -19,6 +19,7 @@ const renderer = require('vue-server-renderer').createBundleRenderer(
 <head>
   <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
   <title>todo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="/dist/client.css" rel="stylesheet">
 </head>
 <body>

@@ -2,7 +2,7 @@
 Simple prototype to try out SSR.
 
 ## Live Demo
-https://todo-ssr-bfynpjyozg.now.sh
+https://todo-ssr-vvyjkwcwsh.now.sh
 
 ## Development
 ```bash
